@@ -1,0 +1,76 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background: linear-gradient(to bottom, aliceblue, rgb(97, 141, 180));
+}
+
+h1 {
+  display: inline;
+  margin-left: 20px;
+  font-size: 3.2rem;
+  font-family: "Abril Fatface", cursive;
+  color: white;
+}
+
+h2 {
+  text-decoration: underline;
+  text-underline-offset: 15px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1b0164;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+  margin-top: 8px;
+  color: rgb(192, 0, 0);
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #1b0164, rgb(6, 6, 43));
+  border-bottom: solid rgb(192, 0, 0) 6px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.form-control {
+  background-color: aliceblue;
+}
+
+#section-border {
+  margin-top: 50px;
+  border-bottom: dashed rgb(192, 0, 0) 4px;
+  width: 50%;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+#f-drink {
+  border-left: dashed white 4px;
+  border-right: dashed white 4px;
+}
+
+.card-1 {
+  border: solid rgb(255, 255, 255) 8px;
+  border-radius: 15px;
+}
+
+@media (max-width: 644px) {
+  #navbarFlex {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .navbar-brand {
+    padding-bottom: 20px;
+  }
+}
+
+.card {
+  border-radius: 15px;
+}
